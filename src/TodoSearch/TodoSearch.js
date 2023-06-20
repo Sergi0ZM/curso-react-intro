@@ -8,7 +8,7 @@ function TodoSearch() {
   return (
     <div className="todoSearch-container">
       <input
-        placeholder="Cortar cebollas"
+        placeholder="Pasear al perro..."
         className="todoSearch"
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}

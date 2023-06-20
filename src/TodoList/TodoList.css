@@ -2,3 +2,9 @@
     padding: 0 0 56px 0;
     list-style: none;
 }
+
+p {
+    padding: 48px;
+    text-align: center;
+    font-size: 2.4rem;
+}

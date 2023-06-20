@@ -6,7 +6,7 @@ function TodoCounter() {
   const { completedTodos, totalTodos } = useContext(TodoContext);
 
   return completedTodos === totalTodos ? (
-    <h1 className="title-todo-counter">Felicidades! Completaste tus tareas</h1>
+    <h1 className="title-todo-counter">No hay tareas pendientes</h1>
   ) : (
     <h1 className="title-todo-counter">
       Has completado {completedTodos} de {totalTodos} TODOs
